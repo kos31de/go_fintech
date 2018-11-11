@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func init () {
-	fmt.Println("Init")
+	fmt.Println("Init", time.Now())
 }
 
 func bazz () {
