@@ -3,10 +3,11 @@ package main
 import "fmt"
 
 func main () {
-	var ( i int = 1
-		 f64 float64 = 1.2
-		 s string = "test"
-		 t, f bool = true, false
+	var (
+		i int = 1
+		f64 float64 = 1.2
+		s string = "test"
+		t, f bool = true, false
 	)
 	fmt.Println(i, f64, s, t, f)
 
@@ -15,4 +16,5 @@ func main () {
 	xs := "test"
 	xt, xf := true, false
 	fmt.Println(xi, xf64, xs, xt, xf)
+	fmt.Printf("%T", xf64)
 }
